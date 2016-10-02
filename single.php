@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
  *
- * @package theme_name
+ * @package Eddie Theme
  */
 
 get_header(); ?>

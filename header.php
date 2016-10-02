@@ -6,7 +6,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package theme_name
+ * @package Eddie Theme
  */
 
 ?><!DOCTYPE html>
@@ -21,3 +21,11 @@
 
     <body>
     <div id="content">
+       <header>
+            <section class="hero-area">
+                <nav>
+                    <span class="site-logo"></span>
+                    <span class="header-nav"></span>
+                </nav>
+            </section>
+        </header>

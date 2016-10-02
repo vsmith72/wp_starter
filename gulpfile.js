@@ -29,17 +29,17 @@
 
 // START Editing Project Variables.
 // Project related.
-var project                 = 'WPGulpTheme'; // Project Name.
-var projectURL              = 'wpgulp.dev'; // Project URL. Could be something like localhost:8888.
+var project                 = 'Eddie Theme'; // Project Name.
+var projectURL              = 'eddie.dev'; // Project URL. Could be something like localhost:8888.
 var productURL              = './'; // Theme/Plugin URL. Leave it like it is, since our gulpfile.js lives in the root folder.
 
 // Translation related.
-var text_domain             = 'WPGULP'; // Your textdomain here.
-var destFile                = 'WPGULP.pot'; // Name of the transalation file.
-var packageName             = 'WPGULP'; // Package name.
-var bugReport               = 'https://AhmadAwais.com/contact/'; // Where can users report bugs.
-var lastTranslator          = 'Ahmad Awais <your_email@email.com>'; // Last translator Email ID.
-var team                    = 'WPTie <your_email@email.com>'; // Team's Email ID.
+var text_domain             = 'eddie_theme'; // Your textdomain here.
+var destFile                = 'eddie_theme.pot'; // Name of the transalation file.
+var packageName             = 'Eddie Theme'; // Package name.
+var bugReport               = 'http://eddie.dev/contact/'; // Where can users report bugs.
+var lastTranslator          = 'Eddie Curan <eddie@eddie.dev>'; // Last translator Email ID.
+var team                    = 'Eddie <eddie@eddie.dev>'; // Team's Email ID.
 var translatePath           = './languages'; // Where to save the translation files.
 
 // Style related.
@@ -299,7 +299,7 @@ gulp.task( 'browser-sync', function() {
      return gulp.src( projectPHPWatchFiles )
          .pipe(sort())
          .pipe(wpPot( {
-             domain        : text_domain,
+             domain        : eddie_theme,
              destFile      : destFile,
              package       : packageName,
              bugReport     : bugReport,

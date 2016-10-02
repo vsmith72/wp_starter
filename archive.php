@@ -4,7 +4,7 @@
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
- * @package theme_name
+ * @package Eddie Theme
  */
 
 get_header(); ?>

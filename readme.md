@@ -1,11 +1,11 @@
 
-=== theme_name ===
+=== eddie-theme ===
 
 Contributors: Vanessa Smith
-Tags: theme_tags
+Tags: responsive, full-width, embedded video, membership, subscription, e-book sales
 
-Requires at least: wp_version
-Tested up to: test_version
+Requires at least: 4.6.1
+Tested up to: 4.6.1
 Stable tag: 1.0.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -20,13 +20,13 @@ This theme is a started theme including bower, gulp and sass. Please change this
 2. Click Upload and Choose File, then select the theme's .zip file. Click Install Now.
 3. Click Activate to use your new theme right away.
 4. Search and Replace > Replace the following in the template files 
-    theme_name > Theme Name
-    theme_uri > Theme URI
-    text_domain > Text Domain
-    theme_tags > Theme Tags
+    eddie-theme > Theme Name
+    eddie.dev > Theme URI
+    eddie_theme > Text Domain
+    responsive, full-width, embedded video, membership, subscription, e-book sales > Theme Tags
     theme_description > Theme Description
-    wp_version > Current WordPress Version
-    test_version > Current WP Version
+    4.6.1 > Current WordPress Version
+    4.6.1 > Current WP Version
 5. Edit the variable in the gulpfile.js and package.json to fit the theme
 6. You will need to initial bower and gulp by running $npm install for gulp and $bower install for bower 
 
