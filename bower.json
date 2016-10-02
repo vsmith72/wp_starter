@@ -1,0 +1,9 @@
+{
+    "name": "pretty-pixels",
+    "version": "1.0.0",
+    "dependencies": {
+        "font-awesome": "latest",
+        "jquery": "latest",
+        "jquery-mobile": "latest"
+    }
+}
