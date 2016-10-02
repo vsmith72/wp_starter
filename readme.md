@@ -11,7 +11,7 @@ License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
-
+This theme is a started theme including bower, gulp and sass. Please change this description to reflect the actual description for the theme it is used for.
 
 
 == Installation ==
@@ -27,6 +27,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
     theme_description > Theme Description
     wp_version > Current WordPress Version
     test_version > Current WP Version
+5. Edit the variable in the gulpfile.js and package.json to fit the theme
+6. You will need to initial bower and gulp by running $npm install for gulp and $bower install for bower 
 
 == Frequently Asked Questions ==
 
