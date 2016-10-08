@@ -1,9 +1,10 @@
 {
-    "name": "pretty-pixels",
+    "name": "eddie-theme",
     "version": "1.0.0",
     "dependencies": {
         "font-awesome": "latest",
         "jquery": "latest",
-        "jquery-mobile": "latest"
+        "jquery-mobile": "latest",
+        "normalize-css": "latest"
     }
 }

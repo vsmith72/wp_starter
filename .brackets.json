@@ -1,0 +1,15 @@
+{
+    "path": {
+        "scss/style.scss": {
+            "sass.enabled": true,
+            "sass.options": {
+                "outputDir": "../",
+                "imagePath": null,
+                "sourceComments": "map",
+                "outputStyle": "nested"
+            },
+            "brackets-git.gitPath": "git",
+            "mikaeljorhult.bracketsPHPLintTools.php-available": true
+        }
+    }
+}

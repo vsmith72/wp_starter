@@ -18,7 +18,7 @@ get_header(); ?>
     <section class="content-book">
         <span  class="book-image">
             <figure>
-                <img src=img/book.png alt="" />
+                <img src="http://eddie.dev/wp-content/themes/eddie-theme/img/book.png" alt=""/>
             </figure>
         </span>
         <span class="book-info">
@@ -29,10 +29,11 @@ get_header(); ?>
     <section class="content-lessons">
         <span class="lessons-info">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis debitis magnam, reiciendis beatae reprehenderit facilis. Eveniet repellendus ad mollitia doloribus distinctio corporis optio nihil hic est, ipsa, omnis quasi. Deserunt!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus sunt minima, nemo amet ullam laboriosam a. Debitis ea dolorum, ipsa eligendi, optio doloremque maxime sapiente necessitatibus magnam minima a, accusamus!</p>
+            <button>Get the Lessons!</button>
         </span>
         <span class="lessons-image">
             <figure>
-                <img src=media/intro.img alt="" />
+                <img src="http://eddie.dev/wp-content/themes/eddie-theme/img/book.png" alt="" />
             </figure>
         </span>
     </section>
