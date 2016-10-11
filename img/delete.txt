@@ -1,0 +1,1 @@
+This file is a placeholder to have an empty directory in the repo. Simply delete as it is not needed once image files are placed in directory.

@@ -6,18 +6,12 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package Eddie Theme
+ * @package $text-domain
  */
 
 ?>
 <footer class="site-footer">
-    <span  class="footer-nav">
-        <nav></nav>
-    </span>
-    <span>
-       <a href="#" target="_blank">Buy the Book</a>
-       <nav class="social-nav"></nav>
-    </span>
+
 </footer>
 </div> <!-- end content div form header.php -->
 

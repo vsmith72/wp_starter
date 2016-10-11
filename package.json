@@ -1,12 +1,12 @@
 {
-  "name": "eddie-theme",
+    "name": "$text-domain",
   "version": "1.0.0",
-  "description": "=== eddie-theme ===",
+  "description": "$theme-description",
   "main": "index.php",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Vanessa Smith",
+  "author": "$theme-author",
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.17.0",

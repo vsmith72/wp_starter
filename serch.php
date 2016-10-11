@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#search-result
  *
- * @package Eddie Theme
+ * @package $text-domain
  */
 
 get_header(); ?>

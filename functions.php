@@ -6,7 +6,7 @@
  *
  * @package eddie-theme
  */
-if ( ! function_exists( 'eddie_theme_setup' ) ) :
+if ( ! function_exists( '$theme-slug_setup' ) ) :
 /**
  * Sets up theme defaults and registers support for various WordPress features.
  *
@@ -21,7 +21,7 @@ function eddie_theme_setup() {
 	 * If you're building a theme based on components, use a find and replace
 	 * to change 'starter2' to the name of your theme in all the template files.
 	 */
-    load_theme_textdomain( 'eddie_theme', get_template_directory() . '/languages' );
+    load_theme_textdomain( '$text-domain', get_template_directory() . '/languages' );
 
     // Add default posts and comments RSS feed links to head.
     add_theme_support( 'automatic-feed-links' );
@@ -45,7 +45,7 @@ function eddie_theme_setup() {
 
     // This theme uses wp_nav_menu() in one location.
     register_nav_menus( array(
-        'menu-1' => esc_html__( 'Top', 'eddie_theme' ),
+        'menu-1' => esc_html__( 'Top', '$theme-slug' ),
     ) );
 
 
@@ -63,7 +63,7 @@ function eddie_theme_setup() {
 
 }
 endif;
-add_action( 'after_setup_theme', 'eddie_theme_setup' );
+add_action( 'after_setup_theme', '$theme-slug_setup' );
 
 /**
  * Register widget area.
@@ -81,16 +81,16 @@ function eddie_theme_widgets_init() {
         'after_title'   => '</h2>',
     ) );
 }
-add_action( 'widgets_init', 'eddie_theme_widgets_init' );
+add_action( 'widgets_init', '$theme-slug_widgets_init' );
 
 /**
  * Enqueue scripts and styles.
  */
-function eddie_theme_scripts() {
+function $theme-slug_scripts() {
     wp_enqueue_style('normalize', get_stylesheet_directory_uri() . '/vendors/normalize-css/normalize.css');
-    wp_enqueue_style( 'eddie_theme-style', get_stylesheet_uri() );
+    wp_enqueue_style( '$theme-slug-style', get_stylesheet_uri() );
 
-    wp_enqueue_script( 'eddie_theme-custom', get_template_directory_uri() . '/js/custom.min.js', array(), '20161002', true );
+    wp_enqueue_script( '$theme-slug-custom', get_template_directory_uri() . '/js/custom.min.js', array(), '20161002', true );
 
 }
-add_action( 'wp_enqueue_scripts', 'eddie_theme_scripts' );
+add_action( 'wp_enqueue_scripts', '$theme-slug_scripts' );

@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-files/#template-partials
  *
- * @package Eddie Theme
+ * @package $text-domain
  */
 
 if ( ! is_active_sidebar( 'sidebar-1' ) ) {
