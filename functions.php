@@ -1,10 +1,10 @@
 <?php
 /**
- * eddie-theme functions and definitions.
+ * theme-slug functions and definitions.
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @package eddie-theme
+ * @package theme-slug
  */
 if ( ! function_exists( '$theme-slug_setup' ) ) :
 /**
@@ -14,7 +14,7 @@ if ( ! function_exists( '$theme-slug_setup' ) ) :
  * runs before the init hook. The init hook is too late for some features, such
  * as indicating support for post thumbnails.
  */
-function eddie_theme_setup() {
+function wp_theme_setup() {
     /*
 	 * Make theme available for translation.
 	 * Translations can be filed in the /languages/ directory.
@@ -41,7 +41,7 @@ function eddie_theme_setup() {
 	 */
     add_theme_support( 'post-thumbnails' );
 
-    add_image_size( 'eddie_theme-featured-image', 640, 9999 );
+    add_image_size( 'wp_theme-featured-image', 640, 9999 );
 
     // This theme uses wp_nav_menu() in one location.
     register_nav_menus( array(
@@ -70,7 +70,7 @@ add_action( 'after_setup_theme', '$theme-slug_setup' );
  *
  * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
  */
-function eddie_theme_widgets_init() {
+function wp_theme_widgets_init() {
     register_sidebar( array(
         'name'          => esc_html__( 'Sidebar', 'eddie_theme' ),
         'id'            => 'sidebar-1',
